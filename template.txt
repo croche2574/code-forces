@@ -1,0 +1,13 @@
+import sys
+
+line_count = 0
+
+for line in sys.stdin:
+    array = [int(i) for i in line.split()]
+    if line_count == 0:
+        pass
+    elif line_count % 2 == 1:
+        
+    else:
+
+    line_count += 1
